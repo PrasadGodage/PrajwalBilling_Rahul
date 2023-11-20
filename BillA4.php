@@ -161,13 +161,13 @@ $billtextcolor=$row2['billtextcolor'];
 
               <div class="row">
                 <div class="col-7">
-                    <B>BANK DETAILS</B>
+                    <!-- <B>BANK DETAILS</B>
                     <P>Name: Soulsoft Infotech Private Limited</P>
                     
                     <P>
                         IFSC Code: IDFB0042964<br>
                         Account No: 10087360151<br>
-                        Bank: IDFC FIRST Bank,SANGAMNER</P>
+                        Bank: IDFC FIRST Bank,SANGAMNER</P> -->
                 </div>
                 <div class="col-5 ml-auto">
                 <!-- <div class="col-5 float-right"> -->
