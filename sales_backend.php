@@ -16,22 +16,22 @@ include('functions.php');
 	
 	// $output='';
 
-	$checksql="SELECT * FROM `tempsalesdetails` WHERE `BillId`='$BillNO' AND `ItemId`='$ItemID'";
+	// $checksql="SELECT * FROM `tempsalesdetails` WHERE `BillId`='$BillNO' AND `ItemId`='$ItemID'";
 	// echo $checksql;
-	$checkres=mysqli_query($con,$checksql);
-	if(mysqli_num_rows($checkres)>0)
-	{
-			// echo "Error to fouind please Add new";
-			$$updatetotal="UPDATE `tempsalesdetails` SET `Qty`=`Qty`+'$Qty',`ItemTotal`=`ItemTotal`+'$ItemTotal',`TaxableAmt`=`TaxableAmt`+'$TaxableAmount',`TaxAmt1`=`TaxAmt1`+'$CgstAmt',`TaxAmt2`=`TaxAmt2`+'$SgstAmt',`TotalTax`=`TotalTax`+'$TaxAmount',`NetAmt`=`NetAmt`+'$NetAmount' WHERE `BillId`='$BillNO' AND `ItemId`='$ItemID'";
-            // echo $$updatetotal;
-            if(mysqli_query($con,$$updatetotal))
-            {			
-            	$output="updated";
-            }
+	// $checkres=mysqli_query($con,$checksql);
+	// if(mysqli_num_rows($checkres)>0)
+	// {
+	// 		// echo "Error to fouind please Add new";
+	// 		$$updatetotal="UPDATE `tempsalesdetails` SET `Qty`=`Qty`+'$Qty',`ItemTotal`=`ItemTotal`+'$ItemTotal',`TaxableAmt`=`TaxableAmt`+'$TaxableAmount',`TaxAmt1`=`TaxAmt1`+'$CgstAmt',`TaxAmt2`=`TaxAmt2`+'$SgstAmt',`TotalTax`=`TotalTax`+'$TaxAmount',`NetAmt`=`NetAmt`+'$NetAmount' WHERE `BillId`='$BillNO' AND `ItemId`='$ItemID'";
+    //         // echo $$updatetotal;
+    //         if(mysqli_query($con,$$updatetotal))
+    //         {			
+    //         	$output="updated";
+    //         }
 
-            echo $output;
+    //         echo $output;
 
-	}else{
+	// }else{
 			// echo "Error to fouind please Add new";
 			  $Insertitemtodb="INSERT INTO `tempsalesdetails`(`BillId`, `ItemId`, `ItemDescription`, `UnitId`, `Qty`, `Rate`, `ItemTotal`, `DiscPer`, `DiscAmt`,`TaxableAmt`, `TaxPer1`, `TaxAmt1`, `TaxPer2`, `TaxAmt2`, `TotalTax`, `NetAmt`)VALUES ('$BillNO','$ItemID','$ItemDisc','$UnitID','$Qty','$Rate','$ItemTotal','$DiscountPercentage','$DiscountAmount','$TaxableAmount','$CgstPercetage','$CgstAmt','$SgstPercentage','$SgstAmt','$TaxAmount','$NetAmount')";
             // echo $Insertitemtodb;
@@ -42,7 +42,7 @@ include('functions.php');
 
             echo $output;
 
-	}
+	// }
 
 
 }
