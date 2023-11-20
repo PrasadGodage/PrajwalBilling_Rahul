@@ -184,13 +184,13 @@ $billtextcolor=$row2['billtextcolor'];
 
               <div class="row">
                 <div class="col-7">
-                    <p><b>TERMS AND CONDITIONS</b></p>
+                    <!-- <p><b>TERMS AND CONDITIONS</b></p>
                     <p>
                         1. Domain & Hosting / Server Charges belong to the client only.<br>
                        2. AMC charges are applicable after one year of completion. <br>
                        3. Extra 18% GST Applicable. <br>
-                       <!-- 2. AMC charges are applicable after one year of completion. <br> -->
-                    </p>
+                        2. AMC charges are applicable after one year of completion. <br> 
+                    </p> -->
                     
                 </div>
                 <div class="col-5">
