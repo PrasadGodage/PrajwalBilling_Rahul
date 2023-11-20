@@ -47,6 +47,8 @@ $firmEmail=$row2['FirmEmail'];
 $firmgst=$row2['FirmGst'];
 $firmlogo=$row2['LogoAddress'];
 $billheadercolor=$row2['billheadercolor'];
+$billtextcolor=$row2['billtextcolor'];
+
 
 
 ?>
