@@ -128,7 +128,7 @@ $billtextcolor=$row2['billtextcolor'];
                                 <tr>
                                 <td><?php echo $num; ?></td>
                                 
-                                <td><?php echo getitemnamebyID($con,$row['ItemId']); ?></td>
+                                <td><b><?php echo getitemnamebyID($con,$row['ItemId'])."</b><br><small>".$row['ItemDescription']."</small>"; ?></td>
                                 <td><?php echo $row['Qty']; ?></td>
                                 <td><?php echo $row['Rate']; ?></td>
                                 <!-- <td><?php //echo $row['TaxableAmt']; ?></td> -->
