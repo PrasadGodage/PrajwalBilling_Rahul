@@ -35,7 +35,7 @@ include('config.php');
 
               <div class="card-header">
                 <center>
-                  <h2 class="text-cenetr">SOULSOFT LOGIN</h2>
+                  <h2 class="text-cenetr">BILLING LOGIN</h2>
                 </center>
                 <!-- <br>
               <h4 class="text-center">Login</h4> -->
